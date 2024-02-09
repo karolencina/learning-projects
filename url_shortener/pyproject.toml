@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "url-shortener"
+version = "0.1.0"
+description = ""
+authors = ["Karolina Lencina <61248646+karolencina@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "0.75.0"
+uvicorn = "0.17.6"
+sqlalchemy = "1.4.32"
+python-dotenv = "0.19.2"
+validators = "0.18.2"
+pydantic = "1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
