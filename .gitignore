@@ -1,0 +1,4 @@
+url_shortener/.env
+.DS_Store
+.idea
+**/__pycache__/
